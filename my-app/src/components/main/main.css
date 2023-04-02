@@ -1,0 +1,66 @@
+.body{
+    padding: 91px;
+    height: 521px;
+    overflow: hidden;
+}
+
+.title{
+    
+    height: 41px;
+    left: 27px;
+    top: 148px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 39.06px;
+    line-height: 47px;
+    letter-spacing: -0.05em;
+
+    color: #FFFFFF;
+}
+
+.points{
+    position: absolute;
+    height: 17.81px;
+    left: 74px;
+    top: 235px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+}
+
+.points li{
+    padding-bottom: 20.36px;
+}
+
+ul {
+    list-style: none;
+  }
+  
+  ul li::before {
+    content: "\2022";
+    color: #61DAFB;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
+
+  .log{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+   
+    left: 1402px;
+    top: 198px;
+    
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');

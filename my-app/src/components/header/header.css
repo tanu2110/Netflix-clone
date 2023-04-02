@@ -8,6 +8,10 @@ header{
 }
 
 .logo{
-    
+    position: absolute;
+    width: 158px;
+    height: 108.93px;
+    left: 26px;
+    top: 31px;
 }
 
